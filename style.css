@@ -1,0 +1,53 @@
+.field{
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 500px;
+  height: 500px;
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 60px;
+  padding: 15px;
+}
+
+.btn{
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.h2{
+font-weight: normal;
+}
+
+.h4{
+  width: 200px;
+  height: 20px;
+  background-color: rgb(164, 164, 164);
+  margin-bottom: 15px;
+
+}
+
+.description{
+  display: flex;
+}
+
+.img-film{
+width: 60px;
+height: 60px;
+background-color: rgb(164, 164, 164);
+}
+
+.about-film{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+
+.text-film{
+margin: 0 0 0 15px;
+height: 20px;
+background-color: rgb(164, 164, 164);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Incoming</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="field">
+    <div class="btn">Обновить</div>
+    <h2 class="h2">Новости мира кино</h2>
+    <div class="article">
+      <h4 class="h4"></h4>
+      <div class="description">
+        <div class="img-film"></div>
+        <div class="about-film">
+          <p class="text-film"></p>
+          <p class="text-film"></p>
+        </div>
+      </div>
+    </div>
+    <div class="article">
+      <h4 class="h4"></h4>
+      <div class="description">
+        <div class="img-film"></div>
+        <div class="about-film">
+          <p class="text-film"></p>
+          <p class="text-film"></p>
+        </div>
+      </div>
+    </div>
+    <div class="article">
+      <h4 class="h4"></h4>
+      <div class="description">
+        <div class="img-film"></div>
+        <div class="about-film">
+          <p class="text-film"></p>
+          <p class="text-film"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./App.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("./service-worker.js", { scope: "./" })
+    .then((reg) => {
+      // регистрация сработала
+      console.log("Registration succeeded. Scope is " + reg.scope);
+    })
+    .catch((error) => {
+      // регистрация прошла неудачно
+      console.log("Registration failed with " + error);
+    });
+}
+  </script>
+</body>
+</html>

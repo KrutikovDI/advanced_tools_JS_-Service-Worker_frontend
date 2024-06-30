@@ -1,0 +1,14 @@
+{
+  "name": "service-workers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "author": "Rysaev Damir <freepad@ya.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "description": ""
+}
